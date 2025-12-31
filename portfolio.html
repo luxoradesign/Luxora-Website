@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Luxora Design House Ltd.</title>
+  <meta name="description" content="Luxora render portfolio: warm luxury interiors, storage systems, offices, dressing rooms, pantries, and wine cellars." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark nav-glass py-3">
+  <div class="container">
+    <a class="brand-lockup" href="index.html">
+      <img src="assets/img/logo.png" alt="Luxora logo">
+      <div><div class="brand-name">Luxora</div><span class="brand-sub">Design House Ltd.</span></div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <a class="btn btn-lux ms-lg-3 mt-3 mt-lg-0" href="contact.html">Book a consult</a>
+    </div>
+  </div>
+</nav>
+
+<header class="section">
+  <div class="container">
+    <p class="eyebrow mb-2">Portfolio</p>
+    <h1 class="section-title display-6 mb-3">Render gallery</h1>
+    <p class="text-secondary col-lg-9 mb-0">
+      Concept-driven studies that reflect the Luxora aesthetic: warm luxury, clean structure, and calm function.
+    </p>
+  </div>
+</header>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="gallery">
+      <div class="tile span6">
+        <img src="assets/img/elizabeth-room.jpg" alt="Elegant bedroom render">
+        <div class="cap"><div class="title">Bedroom</div><p class="desc">Soft light, airy elegance, gentle luxury.</p></div>
+      </div>
+
+      <div class="tile span6">
+        <img src="assets/img/life-management-center.jpg" alt="Life Management Center render">
+        <div class="cap"><div class="title">Life Management Center</div><p class="desc">A system for real life: storage + flow.</p></div>
+      </div>
+
+      <div class="tile span6">
+        <img src="assets/img/his-wic.jpg" alt="Dressing room / walk-in closet render">
+        <div class="cap"><div class="title">Walk-In Closet</div><p class="desc">Moody warmth, boutique organization.</p></div>
+      </div>
+
+      <div class="tile span6">
+        <img src="assets/img/office.jpg" alt="Office render">
+        <div class="cap"><div class="title">Office</div><p class="desc">Focus-forward, warm materials, calm energy.</p></div>
+      </div>
+
+      <div class="tile span6">
+        <img src="assets/img/pantry.jpg" alt="Pantry render">
+        <div class="cap"><div class="title">Pantry</div><p class="desc">Storage that stays organized.</p></div>
+      </div>
+
+      <div class="tile span6">
+        <img src="assets/img/wine-cellar.jpg" alt="Wine cellar render">
+        <div class="cap"><div class="title">Wine Cellar</div><p class="desc">Museum lighting, rich textures, deep luxury.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="card-glass p-4 p-lg-5">
+      <h2 class="h5 fw-semibold mb-2">Want your home to feel like this?</h2>
+      <p class="text-secondary mb-3">
+        Tell us what you’re building, where it is, and what you want it to feel like — and we’ll outline next steps.
+      </p>
+      <a class="btn btn-lux" href="contact.html">Start a consult</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container d-flex flex-column flex-lg-row justify-content-between gap-3">
+    <div>
+      <div class="fw-semibold">Luxora Design House Ltd.</div>
+      <div class="small">People before profit.</div>
+    </div>
+    <div class="small">© <span id="year"></span> Luxora. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
