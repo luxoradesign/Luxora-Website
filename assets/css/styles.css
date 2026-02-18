@@ -163,3 +163,54 @@ small,.small{color:var(--muted2)!important;}
   color:var(--muted);
   padding:3rem 0;
 }
+
+/* --- Luxora Plan Landing Page Enhancers --- */
+.lux-hero-subpage {
+  background: radial-gradient(1200px 600px at 20% 10%, rgba(255,255,255,0.06), transparent 60%),
+  radial-gradient(900px 500px at 80% 20%, rgba(255,255,255,0.04), transparent 55%);
+}
+
+.lux-disclaimer {
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.22);
+  padding: 14px 16px;
+  border-radius: 16px;
+  color: rgba(255,255,255,0.86);
+  font-size: 0.95rem;
+}
+
+.lux-link { text-decoration: underline; }
+
+.lux-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  margin-top: 7px;
+  background: rgba(255,255,255,0.55);
+  flex: 0 0 10px;
+}
+
+.lux-feature {
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+}
+
+.lux-price-amount {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.lux-price-featured {
+  outline: 2px solid rgba(255,215,160,0.25);
+  box-shadow: 0 0 0 6px rgba(255,215,160,0.08);
+}
+
+.lux-note {
+  border-left: 3px solid rgba(255,215,160,0.45);
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: rgba(0,0,0,0.16);
+  color: rgba(255,255,255,0.78);
+}
